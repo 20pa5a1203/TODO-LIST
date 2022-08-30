@@ -1,0 +1,53 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+.main{
+    display: inline-block;
+    width: 100%;
+    margin: 5% 25%;
+}
+.heading{
+    display: block;
+    float: left;
+    background-color: antiquewhite;
+}
+.task{
+    display: block;
+    margin-left: 50px;
+}
+.name{
+
+    padding: 10px;
+}
+input{
+    margin: 3%;
+    border: none;
+    font-size: xx-large;
+}
+input:hover{
+    outline: none;
+}
+input:focus{
+    outline: none;
+}
+.list_item{
+    display: flex;
+    justify-content:space-between ;
+    margin: auto;
+    align-items: center;
+}
+.item_name{
+    width: 50%;
+    margin: auto;
+}
+.straik{
+    text-decoration: line-through;
+}
+.item_box{
+    display: flex;
+    /* width: 50%; */
+    margin: auto;
+    gap: 20px;
+}
+.delete{
+    cursor: pointer;
+}
